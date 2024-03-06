@@ -1,0 +1,15 @@
+Visibility properties & methods
+private
+    - solo pueden ver/editar en el contexto de definición
+    - atributo/metodo no se pueden heredar
+    - utilizado para encapsular
+
+protected
+    - se pueden ver/editar en el contexto actual y heredado (clases hijas)
+    - se pueden heredar
+    - encapsulamiento con libertad de herencia
+
+public
+    - se pueden ver/editar en cualquier contexto
+    - su proposito es heredar
+

@@ -4,7 +4,7 @@ public class Coche
 {
     public string Marca { get; set; }
     public int Modelo { get; set; }
-    int ruedas;
+    private int ruedas;
     public string Color { get; set; }
     private int cilindros;
     public int Cilindros
