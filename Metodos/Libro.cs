@@ -19,4 +19,18 @@ public class Libro
     {
         Id = new Random().Next(1,1000);
     }
+
+    // sobrecarga de métodos
+    public Libro(string titulo)
+    {
+        Id = new Random().Next(1,1000);
+        this.Titulo = titulo;
+    }
+
+    public Libro(string titulo, int año)
+    {
+        Id = new Random().Next(1,1000);
+        Titulo = titulo;
+        Año = año;
+    }
 }
