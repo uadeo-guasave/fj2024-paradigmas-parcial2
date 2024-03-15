@@ -13,3 +13,6 @@ var libro2 = new Libro("C# OOP");
 
 // definir un tercer libro con titulo y año al inicializar
 var libro3 = new Libro("F# FP", 2024);
+
+// los argumentos se pueden pasar en distinto orden utilizando el nombre del parámetro
+var libro4 = new Libro(año: 2017, titulo: "ASP.Net");
