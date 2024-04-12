@@ -4,9 +4,9 @@ public class Venta
 {
     public int Id { get; set;}
     public DateTime Fecha { get; set; }
-    public Vendedor Vendedor { get; set; }
-    public Sucursal Sucursal { get; set; }
-    public Cliente Cliente { get; set; }
+    public int VendedorId { get; set; }
+    public int SucursalId { get; set; }
+    public int ClienteId { get; set; }
     public decimal SubTotal { get; set; }
     public decimal Iva { get; set; }
     public decimal Total { get; set; }

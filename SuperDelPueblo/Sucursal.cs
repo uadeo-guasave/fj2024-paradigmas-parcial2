@@ -4,7 +4,7 @@ public class Sucursal
 {
     public int Id { get; set;}
     public string Nombre { get; set; }
-    public Domicilio Domicilio { get; set; }
-    public Encargado Encargado { get; set; }
+    public int DomicilioId { get; set; }
+    public int EncargadoId { get; set; }
     public string Teléfono { get; set; }
 }
