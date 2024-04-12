@@ -7,6 +7,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ClasesObjetos", "ClasesObje
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Metodos", "Metodos\Metodos.csproj", "{80B14C06-109D-43B2-BEF7-393851F435F7}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SuperDelPueblo", "SuperDelPueblo\SuperDelPueblo.csproj", "{9EDCE26F-5CAB-45D5-AEA1-8E87D4385809}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -24,5 +26,9 @@ Global
 		{80B14C06-109D-43B2-BEF7-393851F435F7}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{80B14C06-109D-43B2-BEF7-393851F435F7}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{80B14C06-109D-43B2-BEF7-393851F435F7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9EDCE26F-5CAB-45D5-AEA1-8E87D4385809}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9EDCE26F-5CAB-45D5-AEA1-8E87D4385809}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9EDCE26F-5CAB-45D5-AEA1-8E87D4385809}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9EDCE26F-5CAB-45D5-AEA1-8E87D4385809}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
